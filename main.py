@@ -15,7 +15,7 @@ class Tic_Tac_Toe():
     # ------------------------------------------------------------------
     def __init__(self):
         self.window = Tk()
-        self.window.title('Tic-Tac-Toe')
+        self.window.title('Tic-tic')
         self.canvas = Canvas(self.window, width=size_of_board, height=size_of_board)
         self.canvas.pack()
         # Input from user in form of clicks
